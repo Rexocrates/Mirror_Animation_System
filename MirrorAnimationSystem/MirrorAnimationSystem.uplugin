@@ -1,0 +1,36 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "2.0",
+	"FriendlyName": "Mirror Animation System",
+	"Description": "Incorporates functionalities that allow the mirroring of animations with their root motion at runtime, as well as inside the editor.",
+	"Category": "Animation",
+	"CreatedBy": "Rexocrates",
+	"CreatedByURL": "https://github.com/Rexocrates",
+	"DocsURL": "https://github.com/Rexocrates/Mirror_Animation_System/blob/main/Mirror%20Animation%20System%20Documentation.pdf",
+	"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/36b1fe6319794a25ab6dfffb82e1b29b",
+	"SupportURL": "https://github.com/Rexocrates/Mirror_Animation_System/issues",
+	"EngineVersion": "4.26.0",
+	"CanContainContent": false,
+	"Installed": true,
+	"Modules": [
+		{
+			"Name": "MirrorAnimationSystem",
+			"Type": "Runtime",
+			"LoadingPhase": "PreDefault",
+			"WhitelistPlatforms": [ "Win64", "Win32", "PS4", "XboxOne", "Mac" ]
+		},
+		{
+			"Name": "MirrorAnimationSystemDev",
+			"Type": "DeveloperTool",
+			"LoadingPhase": "PreDefault",
+			"WhitelistPlatforms": [ "Win64", "Win32", "PS4", "XboxOne", "Mac" ]
+		},
+		{
+			"Name": "MirrorAnimationSystemEditor",
+			"Type": "Editor",
+			"LoadingPhase": "PreDefault",
+			"WhitelistPlatforms": [ "Win64", "Win32", "PS4", "XboxOne", "Mac" ]
+		}
+	]
+}
